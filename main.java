@@ -1,24 +1,41 @@
-First setup init 
-Self.bitcoin
-Self.ethereum
-Self.ada
-Self.cardano
-self.doge
 
-(Each currency is a parameter), (given amount is a parameter) 
-function: givenBitcoin, givenEth,givenDoge,givenADA,givenCardano
-Use ticker for each crypto parameter
 
-Bitcoin (based on given input) * given amount / ethereum (based on given input)
+public class cryptoCalc{
+    int bitcoin;
+    int ethereum;
+    int cardano;
+}
 
-Bitcoin (based on given input) * given amount/ ADA (based on given input)
+public Bitcoin(){
+    bitcoin = int
+}
 
-Bitcoin (based on given input) * given amount/ 
-Cardano (based on given input) 
+public Ethereum(){
+    ethereum = int
+}
 
-Bitcoin (based on given input) * given amount /
-Doge (based on given input)
+public Cardano(){
+    cardano = int
+}
 
-Ethereum (based on given input) * given amount / bitcoin 
+public static void convertBitcoin {
+ divideEth = bitcoin / ethereum
+ System.out.println("Your converted bitcoin value based from given ethereum is" + divideEth + ".")
+ divideAda = bitcoin / cardano
+ System.out.println("Your converted cardano value based from given cardano is" + divideAda + ".")
+}
 
-Bitcoin (based on given input) * given amount 
+public static void convertEthereum{
+    divideBitcoin = ethereum / bitcoin
+    System.out.println("Your converted ethereum value based from given bitcoin is" + divideBitcoin + ".")
+    divideAda = ethereum / cardano
+    System.out.println("Your converted ethereum value based from given cardano is" + divideada + ".")
+}
+
+
+public static void convertCardano{
+    divideBit = cardano / bitcoin
+    System.out.println("Your converted cardano value based from given bitcoin is" + divideBit + ".")
+    divideEth = cardano / ethereum
+    System.out.println("Your converted cardano value based from given ethereum is" + divideEth + ".")
+}
